@@ -136,7 +136,6 @@ document.addEventListener("DOMContentLoaded", () => {
     guessedWords[guessedWords.length - 1] = currentWordArr;
 
     const lastLetterEl = document.getElementById(String(availableSpace - 1));
-
     lastLetterEl.textContent = "";
     availableSpace = availableSpace - 1;
   }
